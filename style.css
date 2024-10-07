@@ -1,3 +1,14 @@
 .navbar {
 	background-color: #323b4c;
 }
+
+.nav-item {
+	font-family: "Lucida Console", Courier, monospace;
+}
+
+.titre-page {
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
