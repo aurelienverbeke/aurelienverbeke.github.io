@@ -43,6 +43,10 @@
 	font-size: clamp(35px, 8vw, 70px);
 }
 
+.photo-profil {
+	border-radius: 50%;
+}
+
 
 
 
@@ -64,6 +68,13 @@
 	h2 {
 		line-height: 0.8;
 	}
+
+	.photo-profil {
+		height: 250px;
+		width: 250px;
+		display: block;
+		margin: auto;
+	}
 }
 
 @media (min-width: 400px) {
@@ -73,6 +84,11 @@
 
 	.image-droite {
 		margin-left: 1rem;
+	}
+	
+	.photo-profil {
+		height: 300px;
+		width: 300px;
 	}
 
 	.bloc {
