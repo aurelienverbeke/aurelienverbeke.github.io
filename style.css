@@ -22,14 +22,6 @@
 
 
 
-.aligne-droite {
-	float: right;
-}
-
-
-
-
-
 .bi-file-earmark-pdf-fill {
 	color: red;
 	height: 40px;
@@ -43,9 +35,30 @@
 
 
 
+.texte-bleu {
+	color: #323b4c;
+}
+
+.titre-accueil {
+	font-size: clamp(35px, 8vw, 70px);
+}
+
+
+
+
+
 @media (max-width: 400px) {
 	.image-ecole {
 		width: 100%;
+	}
+
+	.description {
+		margin-top: 0.6rem;
+	}
+
+	br {
+		margin-top: 0.6rem;
+		display: block;
 	}
 }
 
@@ -54,12 +67,36 @@
 		height: 400px;
 	}
 
-	.bloc-ecole {
-		height: 400px;
-		width: 80%;
+	.image-ecole-droite {
+		margin-left: 1rem;
 	}
 
-	.bloc-ecole > p {
+	.bloc {
+		height: 400px;
+		width: 90%;
+		display: flex;
+		align-items: center;
+	}
+
+	.description {
 		line-height: 2;
+	}
+
+	.aligne-droite {
+		float: right;
+		flex-direction: row-reverse;
+	}
+
+	.texte-droite {
+		text-align: right;
+		margin-right: 
+	}
+
+	.titre-accueil-haut {
+		margin-top: 10rem;
+	}
+
+	.titre-accueil {
+		margin-left: 3rem;
 	}
 }	
