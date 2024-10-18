@@ -48,7 +48,7 @@
 
 
 @media (max-width: 400px) {
-	.image-ecole {
+	.image {
 		width: 100%;
 	}
 
@@ -60,14 +60,18 @@
 		margin-top: 0.6rem;
 		display: block;
 	}
+
+	h2 {
+		line-height: 0.8;
+	}
 }
 
 @media (min-width: 400px) {
-	.image-ecole {
+	.image {
 		height: 400px;
 	}
 
-	.image-ecole-droite {
+	.image-droite {
 		margin-left: 1rem;
 	}
 
