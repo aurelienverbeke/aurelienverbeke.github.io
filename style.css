@@ -35,25 +35,36 @@
 
 
 
-.texte-bleu {
-	color: #323b4c;
+.titre-accueil {
+	font-size: clamp(35px, 6vw, 70px);
+	line-height: 1.2;
 }
 
-.titre-accueil {
-	font-size: clamp(35px, 8vw, 70px);
+.titre-accueil-nom {
+	color: #323b4c;
 }
 
 .photo-profil {
 	border-radius: 50%;
 }
 
+h2 {
+	margin-top: 5rem;
+}
+
+h1 {
+	margin-bottom: 0;
+}
 
 
 
 
-@media (max-width: 400px) {
+
+@media (max-width: 1000px) {
 	.image {
-		width: 100%;
+		width: min(100%, 700px);
+		display: block;
+		margin: auto;
 	}
 
 	.description {
@@ -70,29 +81,47 @@
 	}
 
 	.photo-profil {
-		height: 250px;
-		width: 250px;
+		height: min(50vw, 300px);
+		width: auto;
 		display: block;
 		margin: auto;
+		margin-top: 4rem;
+	}
+	
+	.titre-accueil-bonjour {
+		margin-top: 3rem;
+	}
+
+	.titre-accueil-nom {
+		margin-bottom: 2rem;
+	}
+
+	.bandeau {
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 }
 
-@media (min-width: 400px) {
+@media (min-width: 1000px) {
 	.image {
-		height: 400px;
+		height: 25vw;
 	}
 
+	.image-gauche {
+		margin-right: 1rem;
+	}
+	
 	.image-droite {
 		margin-left: 1rem;
 	}
 	
 	.photo-profil {
-		height: 300px;
-		width: 300px;
+		height: auto;
+		width: 20%;
 	}
 
 	.bloc {
-		height: 400px;
+		height: 25vw;
 		width: 90%;
 		display: flex;
 		align-items: center;
@@ -109,14 +138,23 @@
 
 	.texte-droite {
 		text-align: right;
-		margin-right: 
 	}
 
-	.titre-accueil-haut {
+	.titre-accueil-nom {
+		margin-bottom: 3rem;
+	}
+
+	.texte-accueil {
+		width: 75%;
+		float: left;
+	}
+
+	.bandeau {
 		margin-top: 10rem;
-	}
-
-	.titre-accueil {
-		margin-left: 3rem;
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		padding-left: 3rem;
+		padding-right: 3rem;
 	}
 }	
