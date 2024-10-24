@@ -56,6 +56,12 @@ h1 {
 	margin-bottom: 0;
 }
 
+.image-card {
+	height: 120px;
+	max-width: 100%;
+	margin: 1rem auto 1rem auto;
+}
+
 
 
 
