@@ -2,7 +2,7 @@
 	background-color: #323b4c;
 }
 
-.nav-item, h2 {
+.nav-item, .partie {
 	font-family: "Lucida Console", Courier, monospace;
 }
 
@@ -34,7 +34,7 @@
 	color: #323b4c;
 }
 
-h2 {
+.partie {
 	margin-top: 5rem;
 }
 
@@ -42,6 +42,23 @@ h2 {
 	height: 120px;
 	max-width: 100%;
 }
+
+.lien-cv {
+	font-size: clamp(50px, 8vw, 150px);
+}
+
+.titre-cv {
+	margin-top: 10rem;
+}
+
+.bandeau {
+	margin-bottom: 10rem;
+}
+
+/*.card-text {
+	text-align: justify;
+	text-justify: auto;
+}*/
 
 
 
@@ -61,7 +78,7 @@ h2 {
 		display: block;
 	}
 
-	h2 {
+	.partie {
 		line-height: 0.8;
 	}
 
@@ -87,7 +104,13 @@ h2 {
 
 	.bloc {
 		height: 25vw;
-		width: 90%;
+	}
+
+	.bloc::after {
+		content: "";
+		display: block;
+		width: 10%;
+		height: 100%;
 	}
 
 	.description {
