@@ -26,7 +26,7 @@
 
 
 .titre-accueil {
-	font-size: clamp(35px, 6vw, 70px);
+	font-size: clamp(30px, 6vw, 70px);
 	line-height: 1.2;
 }
 
