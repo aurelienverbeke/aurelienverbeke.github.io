@@ -93,6 +93,11 @@
 }
 
 @media (min-width: 992px) {
+	br {
+		margin-top: 1rem;
+		display: block;
+	}
+
 	.image {
 		height: 25vw;
 	}
@@ -111,10 +116,6 @@
 		display: block;
 		width: 10%;
 		height: 100%;
-	}
-
-	.description {
-		line-height: 2;
 	}
 
 	.bandeau {
