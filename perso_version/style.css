@@ -70,11 +70,11 @@
 	}
 
 	.description {
-		margin-top: 0.6rem;
+		margin-top: 0.5rem;
 	}
 
-	br {
-		margin-top: 0.6rem;
+	.saut-ligne {
+		margin-top: 0.5rem;
 		display: block;
 	}
 
@@ -93,7 +93,7 @@
 }
 
 @media (min-width: 992px) {
-	br {
+	.saut-ligne {
 		margin-top: 1rem;
 		display: block;
 	}
@@ -116,6 +116,7 @@
 		display: block;
 		width: 10%;
 		height: 100%;
+		flex-shrink: 0;
 	}
 
 	.bandeau {
