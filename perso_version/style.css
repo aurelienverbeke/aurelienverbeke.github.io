@@ -21,6 +21,10 @@
 	height: 40px;
 }
 
+.bi-linkedin {
+	font-size: clamp(50px, 8vw, 150px);
+}
+
 
 
 
@@ -53,6 +57,10 @@
 
 .bandeau {
 	margin-bottom: 10rem;
+}
+
+.lien-linkedin {
+	margin-top: 10rem;
 }
 
 /*.card-text {
